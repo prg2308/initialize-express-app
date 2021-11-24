@@ -44,25 +44,6 @@ app.listen(3000, () => {
     console.log('Hosted on port 3000')
 })" >>index.js
 
-cd utils || exit
-touch ExpressError.js
-printf "class ExpressError {
-	constructor(message, statusCode) {
-		this.message = message;
-		this.statusCode = statusCode
-	}
-}
-
-module.exports = ExpressError" >>ExpressError.js
-
-touch AsyncError.js
-printf "module.exports = func => {
-	return (req, res, next) => {
-		func(req, res, next).catch(next)
-	}
-}" >>AsyncError.js
-
-cd ..
 git init
 git add .
 git commit -m "Initial commit"
