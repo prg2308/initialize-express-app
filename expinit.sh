@@ -1,7 +1,7 @@
 #!/bin/sh
 
 if [ -z "$1" ]; then
-    echo "No filename specified"
+    echo "Please enter the name of the repository"
     exit
 fi
 
@@ -54,7 +54,7 @@ app.use(methodOverride('_method'));
 
 app.listen(3000, () => {
     console.log('Hosted on port 3000')
-})" >>index.js  #Write it into the Javascript file
+})" >>index.js #Write it into the Javascript file
 
 #Initialize git repository
 git init
