@@ -34,8 +34,8 @@ $ git clone https://github.com/prg2308/initialize-express-app.git
 --------------------------------
 
 ## Running the script
-cd into the desired location on your system and run the following command
+cd into the desired location on your system and run the following command to execute the script
 ```
 $ sh /usr/local/bin/expinit.sh <repo_name>
 ```
-Replace "```<repo_name>```" with the name of your repository/project
+Replace "```<repo_name>```" with the name of your repository/project.
