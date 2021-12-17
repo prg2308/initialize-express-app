@@ -39,7 +39,7 @@ $ git clone https://github.com/prg2308/initialize-express-app.git
 ```
 In the same directory, run the following command to execute the script
 ```
-$ sh initialize-express-app/expinit.sh
+$ sh initialize-express-app/expinit.sh <repo_name>
 ````
 Replace "```<repo_name>```" with the name of your repository/project.
 <br>
